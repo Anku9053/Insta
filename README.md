@@ -1,3 +1,4 @@
+
 📱 Insta App
 Welcome to the Insta App, a sleek and mobile-responsive interface designed to display user data fetched from an API. This app provides a seamless user experience with visually appealing elements and real-time data updates.
 
@@ -29,7 +30,7 @@ Clone the repository:
 
 sh
 Copy code
-git clone https://github.com/your-username/insta-app.git
+git clone https://github.com/Anku9053/insta.git
 Navigate to the project directory:
 
 sh
@@ -56,10 +57,24 @@ Scroll: Smooth scrolling ensures all content is accessible, including the footer
 Contributions are welcome! To contribute:
 
 Fork the repository.
-Create a new branch: git checkout -b feature-branch-name
-Make your changes and commit them: git commit -m 'Add new feature'
-Push to the branch: git push origin feature-branch-name
+
+Create a new branch:
+
+sh
+Copy code
+git checkout -b feature-branch-name
+Make your changes and commit them:
+
+sh
+Copy code
+git commit -m 'Add new feature'
+Push to the branch:
+
+sh
+Copy code
+git push origin feature-branch-name
 Open a pull request.
+
 📄 License
 This project is licensed under the MIT License.
 
