@@ -1,23 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
+import Bio from './Components/Bio/Bio';
+import Subscriber from './Components/Subscriber/Subscriber';
+import SecondFooter from './Components/Second_Footer/SecondFooter';
 
 function App() {
   return (
+    <div className="mobile-container">
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='background'>
+
+    <Header/>
+    <Subscriber/>
+    <Bio/>
+    <Footer/>
+    <SecondFooter/>
+      </div>
+    </div>
     </div>
   );
 }

@@ -1,7 +1,61 @@
 .App {
   text-align: center;
 }
+/* //////////////////////////////////////////////////////// */
 
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-container {
+  width: 400px;
+  height: 1200px; 
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow: hidden;
+  background-color: #f8f9fa;
+}
+
+.background {
+  position: absolute;
+  /* top: 20px; */
+  left: 0;
+  right: 0;
+  height: 35%;
+  /* bottom: 700px; */
+  background: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 1) 85%), 
+    url('https://s3-alpha-sig.figma.com/img/6741/8e98/88647f0e27384d6fddb7e1d0e9850a38?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XAZJoTitTw~-TGChhEnv8osP1ltVi7vaLtymPyG5jqJS8-5y7V5eLN35a1Cf5nlEPUPc3sGwfDzKYtnXxNFtC4GQzRlEU0ZIc1WWS2WJ1Y8dmwxRBgXHW04MghKXWHUPQnUpq0G7pb-vtP2cnbNokpZMV9ZHIIScE~dnCr2S7YgeUTipAPZgN-Yh9Utak90x8wQrrtrJEjVyKbuR0SfmPPHFlUzsczbpuYRQRDA9xWnhPtiBDWEAHZzgrc7aSIVXgFsydKmNHY3NB26pASOb1miiGWZn0m9n71DGK2wXhWdl5M6nOrTxhqeS8Mr2TojR4PwP-aK1dEQCsur9-W3YTQ__');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.item {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+
+/* //////////////////////////////////////// */
 .App-logo {
   height: 40vmin;
   pointer-events: none;

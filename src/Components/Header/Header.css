@@ -1,0 +1,78 @@
+.header {
+  position: relative;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: transparent;
+}
+
+.time {
+  font-size: 25px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.status-icons {
+  display: flex;
+  gap: 10px;
+  z-index: 1;
+}
+
+.battery, .wifi, .network {
+  font-size: 25px;
+  flex-shrink: 0;
+}
+
+.status-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+  color: white;
+  margin-top: 1rem;
+}
+
+.back-button, .username, .blue-tick, .share-button {
+  font-size: 25px;
+}
+
+.share-button {
+  width: 35px;
+  background-color: white;
+  padding: 0.2rem;
+  border-radius: 100px;
+  height: 35px;
+}
+
+.share-svg {
+  height: 35px;
+}
+
+.blue-tick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 60px;
+}
+
+.tick-svg {
+  fill: #24A4DE;
+  width: 25px;
+  height: 25px;
+}
+
+.tick-svg path {
+  /* stroke: white; */
+  stroke-width: 1.28;
+  stroke-linecap: round;
+}

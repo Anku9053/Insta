@@ -1,0 +1,100 @@
+.bio-container {
+    padding: 10px;
+    color: #333;
+  }
+  
+  .bio-post {
+    margin-bottom: 20px;
+    padding: 10px;
+    /* border-bottom: 1px solid #ddd; */
+  }
+  
+  .bio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .second-username {
+    font-size: 20px;
+    font-weight: bold;
+    color: #592EBF;
+    white-space: nowrap;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 70%; /* Adjust the width based on your layout */
+  }
+  
+  .bio-button {
+    overflow: hidden;
+    
+    color: #FFF;
+    background-color: transparent;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: "Sharp Grotesk";
+    border: none;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+
+  .button-svg{
+    /* margin-top: 2rem; */
+    position: relative;
+    top: 0.3rem;
+    font-size: 30px;
+  }
+  .button-div{
+    border-radius: 6px;
+background: #592EBF;
+box-shadow: 2px 2px 0px 0px #AB1AA1;
+    display: flex;
+width: 130px;
+height: 28px;
+padding: 8px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+  }
+  
+  .designation {
+    color: #4971FD;
+
+text-align: left;
+font-family: "Sharp Grotesk";
+font-size: 20px;
+font-style: normal;
+position: relative;
+bottom: 0.5rem;
+font-weight: 400;
+line-height: -14;
+  }
+  
+  .bio {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .link {
+    /* color: blue; */
+    /* text-decoration: underline; */
+    /* cursor: pointer; */
+  }
+  
+
+  .bio-div{
+    color: #1A3365;
+font-family: "Sharp Grotesk";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px; 
+margin-top: 2rem;
+width: 100%;
+  }
